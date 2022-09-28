@@ -150,3 +150,95 @@ footer button {
   background-image: linear-gradient(#4851ff, #f02aa6);
   border-radius: 45px;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .everything {
+    width: 768px;
+  }
+
+  .header {
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  .hero-banner {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .top-banner {
+    width: 398px;
+    height: 284px;
+    margin-left: 20px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+
+  .hero {
+    width: 640px;
+    height: 640px;
+    position: relative;
+    left: 400px;
+    top: -150px;
+  }
+
+  .content {
+    width: 689px;
+    height: 913px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -120px;
+  }
+
+  .second-banner {
+    width: 339px;
+    height: 259px;
+    position: relative;
+    top: 30px;
+  }
+
+  h2 {
+    color: #ffffff;
+    margin-top: 40px;
+  }
+
+  .animation,
+  .design,
+  .photography,
+  .crypto,
+  .business {
+    width: 339px;
+    height: 259px;
+  }
+
+  footer {
+    background-color: #13183f;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer img {
+    width: 90px;
+    height: 23px;
+    margin-left: 40px;
+  }
+
+  footer button {
+    font-size: 16px;
+    border: none;
+    color: #ffffff;
+    width: 140px;
+    height: 48px;
+    background-image: linear-gradient(#4851ff, #f02aa6);
+    border-radius: 45px;
+    margin-right: 40px;
+  }
+}
